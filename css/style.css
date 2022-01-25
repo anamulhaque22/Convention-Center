@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #0D0925;
+    font-size: 38px;
+    font-weight: 600;
+}
+/* font-family: 'Inter', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+/* Header Area CSS */
+.header-area {
+    padding: 40px 0;
+}
+.navbar-light .navbar-brand {
+    color: #3E3E3E;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3E3E3E;
+    font-weight: 500;
+}
+
+/* Banner Area Style */
+.slider-area .container-fluid {
+    padding: 0;
+}
+.carousel-inner-extra {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.carousel-inner-extra .btn {
+    background: #fff;
+    padding: 8px 30px;
+    font-weight: 700;
+    color: #3F87F5;
+}
+
+
+.moment-precious-text .btn {
+    color: #fff;
+    border-radius: 0;
+}
+
+
+.moment-precious {
+    padding-top: 95px;
+}
+
+
+
+/* Price box Style */
+.package {
+    padding-top: 95px;
+}
+.section-heading {
+    padding-bottom: 200px;
+}
+.section-heading h2 {
+    text-align: center;
+}
+.single-price-box {
+    padding: 40px 30px 20px 30px;
+    border-radius: 26px;
+}
+.single-price-box .price {
+    font-size: 36px;
+    color: #231D4F;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.single-price-box h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #231D4F;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.single-price-box p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #848199;
+}
+
+.single-price-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.single-price-box ul li {
+    color: #848199;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.single-price-box ul li img {
+    margin-right: 5px;
+}
+.single-price-box .btn {
+    font-size: 15px;
+    font-weight: 700;
+    color: #3F87F5;
+    background: #FEF5FB;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: block;
+}
+.single-price-box.hot {
+    background: #3F87F5;
+    padding: 40px 30px 20px 30px;
+    color: #fff;
+    border-radius: 26px;
+    transform: translateY(-55px);
+    box-shadow: 0px 42px 34px rgb(63 135 245 / 25%);
+}
+.single-price-box.hot h3{
+    color: #fff;
+}
+.single-price-box.hot .price{
+    color: #ffff;
+}
+.single-price-box.hot p{
+    color: #ffff;
+}
+.single-price-box.hot ul li{
+    color: #fff;
+}
+.single-price-box.hot .btn{
+    background-color: #fff;
+}
+
+
+
+/* Clients Comments Style */
+.client-area {
+    padding-top: 5%;
+}
+.client-area .section-heading {
+    padding-bottom: 80px;
+}
+.client-comment {
+    text-align: center;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 40px;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+.client-comment p {
+    margin-bottom: 0;
+}
+.client-comment h5, .client-comment span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0C1920;
+    margin: 0;
+}
+
+.client-comment span {
+    color: #747474;
+}
+
+.client-comment img {
+    margin: 12px 0;
+}
+
+
+/* FAQ Area Style */
+.faq-area{
+    padding-top:5% ;
+}
+.faq-area .section-heading {
+    padding-bottom: 80px;
+}
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background: #fff;
+    box-shadow: none;
+}
+
+.accordion-button {
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    /* padding-bottom: 0; */
+}
+
+.accordion-body {
+    font-size: 16px;
+    color: #7E848C;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.accordion-item {
+    margin-bottom: 2rem;
+}
+
+.accordion-item:not(:first-of-type) {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+/* Footer Area Style */
+.footer-area {
+    padding: 50px 0;
+    background: #0B0D17;
+    color: #D9DBE1;
+}
+
+.footer-logo img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-logo h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
